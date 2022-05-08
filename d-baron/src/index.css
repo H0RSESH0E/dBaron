@@ -14,17 +14,6 @@ code {
 
 .first-row {
   height: 100vh;
-  /* border: 2px solid rgb(204, 0, 255); */
-}
-
-.first-column {
-  /* border: 2px solid rgb(29, 160, 149); */
-
-}
-
-.header-div,
-.body-div,
-.footer-div {
 }
 
 .body-div {
@@ -33,11 +22,7 @@ code {
   background-color: rgb(83, 43, 226);
   border: 2px dotted rgb(255, 255, 255);
 }
-.header-div,
-.footer-div {
-  color: antiquewhite;
-  border: 2px solid rgb(255, 0, 0);
-  background-color: blueviolet;
 
-  
+li {
+  list-style: none;
 }
