@@ -9,7 +9,9 @@ function Navigation({ windowLocations, currentWindow, setCurrentWindow }) {
                 key={window.name}
             >
                 <a className={`nav-link ${currentWindow.name === window.name ? 'active' : ''}`}
-                    onClick={() => setCurrentWindow(window)}
+                    onClick={() => setCurrentWindow(window.name)}
+                    href="#"
+                    title={window.description}
                 >
                     {window.name}
                 </a>
