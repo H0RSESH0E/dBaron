@@ -9,7 +9,7 @@ function Body({ windowLocations, currentWindow, setCurrentWindow }) {
     return (
         <main className="container">
             <div className="row justify-content-center">
-                <div className="col-12 d-flex">
+                <div className="col-12 d-flex justify-content-center">
                     {currentWindow.name === 'About Me' && <About />}
                     {currentWindow.name === 'Portfolio' && <Project />}
                     {currentWindow.name === 'Contact' && <Contact />}
