@@ -47,3 +47,38 @@ footer {
 li {
   list-style: none;
 }
+
+@media (max-width: 1000px) {
+
+header {
+  font-size: .8rem;
+}
+header div div {
+  background-color: aqua;
+  flex-direction: column;
+}
+
+.nav-div {
+  align-self: flex-end;
+}
+
+}
+
+@media (max-width: 480px) {
+
+  h4 {
+    font-size:medium
+  }
+  header {
+    font-size: .6rem;
+  }
+  header div div {
+    background-color: aqua;
+    flex-direction: column;
+    align-items: center!important;
+  }
+  .nav-div {
+    align-self: center;
+  }
+  }
+  

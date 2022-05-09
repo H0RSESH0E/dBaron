@@ -8,7 +8,7 @@ function Footer() {
     return (
         <footer className="container">
             <div className="row justify-content-center">
-                <div className="col-12 d-flex">
+                <div className="col-12 d-flex justify-content-around">
                         <div>GitHub</div>
                         <div>LinkedIn</div>
                         <div>Stack Overflow</div>
