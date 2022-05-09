@@ -91,6 +91,11 @@ form  {
 
 }
 
+img {
+  padding: 20px;
+  width: 175px;
+}
+
 /* PHONES - PHONES - PHONES */
 
 @media (max-width: 480px) {
