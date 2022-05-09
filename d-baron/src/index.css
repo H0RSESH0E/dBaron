@@ -46,6 +46,9 @@ footer {
   background-color: rgb(83, 43, 226);
   /* border: 2px dotted rgb(255, 255, 255); */
 }
+.body-container {
+  margin-top: 15px;
+}
 
 form  {
   width: 30vw;
@@ -67,6 +70,27 @@ li {
   list-style: none;
 }
 
+img.about {
+  padding: 20px;
+  width: 175px;
+}
+
+.project {
+  background-color: rgba(242, 255, 125, 0.74);
+border: 1px dotted rgb(0, 0, 0);
+}
+.green {
+  background-color: rgba(17, 221, 95, 0.932);
+}
+.crimson {
+  background-color: rgba(110, 25, 60, 0.932);
+}
+
+img.project {
+  padding: 0px;
+  margin: 20px;
+  
+}
 
 /* TABLETS - TABLETS - TABLETS */
 
@@ -91,10 +115,8 @@ form  {
 
 }
 
-img {
-  padding: 20px;
-  width: 175px;
-}
+
+
 
 /* PHONES - PHONES - PHONES */
 

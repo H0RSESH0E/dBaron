@@ -35,9 +35,9 @@ function Contact() {
     };
 
     return (
-        <section className="container">
+        <section className="body-container container">
             <div className="row justify-content-center">
-                <div className="col-12 d-flex flex-column align-items-center">            <br />
+                <div className="col-12 d-flex flex-column align-items-center">            
                     <h4 data-testid="h1tag">Contact me</h4>
                     <h5>Please leave me your name, email and a brief message.</h5>
                     <form id="contact-form" onSubmit={handleSubmit}>
