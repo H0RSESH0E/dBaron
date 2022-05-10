@@ -4,7 +4,7 @@ console.log(projectsArr);
 
 function Projects() {
     return (
-        <section className="body-container container crimson">
+        <section className="main-container container crimson">
             <div className="row justify-content-around">
                 {projectsArr.map((project, i) => (
                     <>

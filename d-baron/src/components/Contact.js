@@ -35,7 +35,7 @@ function Contact() {
     };
 
     return (
-        <section className="body-container container">
+        <section className="main-container container">
             <div className="row justify-content-center">
                 <div className="col-12 d-flex flex-column align-items-center">            
                     <h4 data-testid="h1tag">Contact me</h4>

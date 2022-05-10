@@ -8,7 +8,7 @@ body {
 }
 
 * {
-  background-color: rgba(94, 204, 247, 0.356);
+  /* background-color: rgba(94, 204, 247, 0.356); */
   /* border: 1px dotted rgb(0, 0, 0); */
 }
 code {
@@ -17,22 +17,19 @@ code {
 }
 
 header {
-  border: 1px dotted rgb(18, 39, 160);
+  padding-top: 15px;
 }
 
 header div div {
-  background-color: rgb(145, 255, 0);
   align-items: flex-end;
 }
 
 main {
   height: 100%;
-  background-color: rgba(220, 20, 60, 0.438);
 }
 
 footer {
 
-  border: 1px dotted rgb(160, 18, 18);
 }
 
 
@@ -40,14 +37,12 @@ footer {
   height: 100vh;
 }
 
-.body-div {
-  /* height: 100%; */
+.main-div {
   color: antiquewhite;
-  background-color: rgb(83, 43, 226);
-  /* border: 2px dotted rgb(255, 255, 255); */
 }
-.body-container {
+.main-container {
   margin-top: 15px;
+  height: 95%;
 }
 
 form  {
@@ -65,7 +60,9 @@ form .btn {
   align-self: center;
   min-width:min-content;
 }
-
+a .btn {
+  margin: 15px;
+}
 li {
   list-style: none;
 }
@@ -75,15 +72,16 @@ img.about {
   width: 175px;
 }
 
-.project {
-  background-color: rgba(242, 255, 125, 0.74);
-border: 1px dotted rgb(0, 0, 0);
-}
 .green {
   background-color: rgba(17, 221, 95, 0.932);
 }
 .crimson {
   background-color: rgba(110, 25, 60, 0.932);
+}
+
+.aqua {
+  background-color: rgba(0, 255, 255, 0.281);
+
 }
 
 img.project {
@@ -96,11 +94,14 @@ img.project {
 
 @media (max-width: 1000px) {
 
-header {
-  font-size: .8rem;
-}
+  header {
+    font-size: 1rem;
+  }
+
+  .nav-tabs .nav-link {
+    padding: 0.5rem 1rem;
+  }
 header div div {
-  background-color: aqua;
   flex-direction: column;
   align-items: flex-start;
 }
@@ -123,10 +124,13 @@ form  {
 @media (max-width: 480px) {
 
   header {
-    font-size: .6rem;
+    font-size: .95rem;
+  }
+
+  .nav-tabs .nav-link {
+    padding: 0.3rem 0.5rem;
   }
   header div div {
-    background-color: aqua;
     flex-direction: column;
     align-items: center!important;
   }
@@ -138,3 +142,21 @@ form  {
   }
   }
   
+  @media (max-width: 410px) {
+    header {
+      font-size: .85rem;
+    }
+  
+    .nav-tabs .nav-link {
+      padding: 0.1rem 0.5rem;
+    }
+  }
+    @media (max-width: 380px) {
+    header {
+      font-size: .75rem;
+    }
+  
+    .nav-tabs .nav-link {
+      padding: 0.1rem 0.5rem;
+    }
+  }

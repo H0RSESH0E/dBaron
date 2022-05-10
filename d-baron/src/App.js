@@ -7,11 +7,10 @@ import {navBarArr} from './components/states.js';
 
 
 function App() {
-
   const [windowLocations] = useState(navBarArr);
 
   const [currentWindow, setCurrentWindow] = useState(windowLocations[0]);
-
+  document.title = `${currentWindow.name}`;
   return (
     <>
       <div className="container-xl">
