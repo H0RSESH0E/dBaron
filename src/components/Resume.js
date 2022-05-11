@@ -5,8 +5,8 @@ function Resume() {
     return (
         <>
             <section className="main-container container">
-                <div className="row d-flex flex-column justify-content-around align-items-center" style={{ height: '65vh' }}>
-                    <div className="d-flex flex-column justify-content-start" style={{ maxWidth: '850px' }}>
+                <div className="row d-flex flex-column justify-content-around align-items-center" >
+                    <div className="d-flex col-12 flex-column justify-content-start" style={{ maxWidth: '850px' }}>
                         <h4 style={{ textAlign: 'center' }}>Here is a quick overview of skills I bring to web development roles:</h4>
                         <br></br>
                         <p><b>Front-End:</b> HTML5, CSS, Bootstrap, JavaScript, jQuery, AJAX, ReactJS, Handlebars.js</p>

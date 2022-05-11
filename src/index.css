@@ -183,18 +183,11 @@ form  {
   }
   
   @media (max-width: 425px) {
-    header {
-      font-size: .85rem;
+    .row{
+      --bs-gutter-x: 0.5rem;
     }
-  
-    .nav-tabs .nav-link {
-      padding: 0.1rem 0.5rem;
-    }
-  }
-  
-  @media (max-width: 380px) {
     header {
-      font-size: .75rem;
+      font-size: 1rem;
     }
   
     .nav-tabs .nav-link {
@@ -202,14 +195,24 @@ form  {
     }
   }
 
-  @media (max-width: 380px) {
+
+  @media (max-width: 395px) {
+    .row{
+      --bs-gutter-x: 0.5rem;
+    }
+
+    footer{
+      font-size: 1.3rem;
+    }
+
     h3,
     h4 {
-      font-size: 1rem;
+      font-size: 1.3rem;
     }
     header,
-    p {
-      font-size: .75rem;
+    p
+     {
+      font-size: .95rem;
     }
   
     .nav-tabs .nav-link {
@@ -222,7 +225,8 @@ form  {
       --bs-gutter-x: 0.5rem;
     }
     h3,
-    h4 {
+    h4,
+    footer {
       font-size: 1rem;
     }
     header,
