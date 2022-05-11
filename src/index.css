@@ -24,10 +24,6 @@ body {
   /* border: 1px dotted rgb(0, 0, 0); */
   
 }
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 header {
   padding-top: 15px;
@@ -40,11 +36,6 @@ header div div {
 main {
   height: 100%;
 }
-
-footer {
-
-}
-
 
 .first-row {
   height: 100vh;
@@ -191,7 +182,7 @@ form  {
   }
   }
   
-  @media (max-width: 410px) {
+  @media (max-width: 425px) {
     header {
       font-size: .85rem;
     }
@@ -200,12 +191,46 @@ form  {
       padding: 0.1rem 0.5rem;
     }
   }
-    @media (max-width: 380px) {
+  
+  @media (max-width: 380px) {
     header {
       font-size: .75rem;
     }
   
     .nav-tabs .nav-link {
       padding: 0.1rem 0.5rem;
+    }
+  }
+
+  @media (max-width: 380px) {
+    h3,
+    h4 {
+      font-size: 1rem;
+    }
+    header,
+    p {
+      font-size: .75rem;
+    }
+  
+    .nav-tabs .nav-link {
+      padding: 0.1rem 0.3rem;
+    }
+  }
+
+  @media (max-width: 300px) {
+    .row{
+      --bs-gutter-x: 0.5rem;
+    }
+    h3,
+    h4 {
+      font-size: 1rem;
+    }
+    header,
+    p {
+      font-size: .55rem;
+    }
+  
+    .nav-tabs .nav-link {
+      padding: 0.1rem 0.2rem;
     }
   }
