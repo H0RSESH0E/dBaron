@@ -1,4 +1,5 @@
 import React from 'react'
+import Cv from '../assets/David_Baron_resume.pdf';
 
 function Resume() {
     return (
@@ -19,7 +20,7 @@ function Resume() {
                         <h5 style={{ textAlign: 'center' }}>Please download my whole web development CV here:</h5>
                     </div>
                     <div className="d-flex justify-content-center ">
-                        <a href="/src/assets/David_Baron_resume.pdf" download="David_Baron_resume.pdf"><button class="btn btn-primary"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download</button></a>
+                        <a href={Cv} download="David_Baron_resume.pdf"><button class="btn btn-primary"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download</button></a>
                     </div>
 
                 </div>
