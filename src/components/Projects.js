@@ -14,7 +14,7 @@ function Projects() {
     }
 
     return (
-        <section className="main-container container">
+        <section className="main-container container-xl">
             {isModalOpen && <Modal projectObject={projectObject} onClose={toggleModal} />}
 
             <div className="row justify-content-around">
