@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dBaron/static/css/main.3b62fe1e.css",
-    "main.js": "/dBaron/static/js/main.dcbae026.js",
+    "main.js": "/dBaron/static/js/main.886ad97e.js",
     "static/js/787.92f46062.chunk.js": "/dBaron/static/js/787.92f46062.chunk.js",
     "static/media/CSS-portfolio-screenshot.png": "/dBaron/static/media/CSS-portfolio-screenshot.4bb5694a421d26821d32.png",
     "static/media/glide-screenshot.png": "/dBaron/static/media/glide-screenshot.414980a04ccb775460b8.png",
@@ -10,6 +10,7 @@
     "static/media/MOLM-cover.png": "/dBaron/static/media/MOLM-cover.e5434a5be2905a259900.png",
     "static/media/MOLM-buckslip.png": "/dBaron/static/media/MOLM-buckslip.5db1b49280ac4e332558.png",
     "static/media/react-screenshot.png": "/dBaron/static/media/react-screenshot.ab8c2c0bcad2ff0eebb0.png",
+    "static/media/David_Baron_resume.pdf": "/dBaron/static/media/David_Baron_resume.6fb71d12e165a2875481.pdf",
     "static/media/work-example-4.png": "/dBaron/static/media/work-example-4.718fc1ae9d19ae95edb5.png",
     "static/media/work-example-2.png": "/dBaron/static/media/work-example-2.5d918633c1867f389411.png",
     "static/media/work-example-1.png": "/dBaron/static/media/work-example-1.eb2a5792b4e88ae21664.png",
@@ -21,11 +22,11 @@
     "static/media/Cache-Regular.ttf": "/dBaron/static/media/Cache-Regular.76beb775ba7985ab5efb.ttf",
     "index.html": "/dBaron/index.html",
     "main.3b62fe1e.css.map": "/dBaron/static/css/main.3b62fe1e.css.map",
-    "main.dcbae026.js.map": "/dBaron/static/js/main.dcbae026.js.map",
+    "main.886ad97e.js.map": "/dBaron/static/js/main.886ad97e.js.map",
     "787.92f46062.chunk.js.map": "/dBaron/static/js/787.92f46062.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b62fe1e.css",
-    "static/js/main.dcbae026.js"
+    "static/js/main.886ad97e.js"
   ]
 }
