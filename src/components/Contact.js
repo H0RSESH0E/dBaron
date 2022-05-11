@@ -36,10 +36,10 @@ function Contact() {
 
     return (
         <section className="main-container container">
-            <div className="row justify-content-center">
-                <div className="col-12 d-flex flex-column align-items-center">            
+            <div className="row flex-column justify-content-center" style={{ height: '65vh' }}>
+                <div className="col-12 d-flex flex-column justify-content-around align-items-center " style={{ height: '100%' }}>            
                     <h4 data-testid="h1tag">Contact me</h4>
-                    <h5>Please leave me your name, email and a brief message.</h5>
+                    <p style={{ maxWidth: '400px', textAlign: 'center' }}>If you would like to connect with me, please leave me your name, email and a brief message.</p>
                     <form id="contact-form" onSubmit={handleSubmit}>
                         <div className="form-group">
                             <input className="form-control" placeholder="name" type="text" name="name" defaultValue={name} onBlur={handleChange} />
@@ -55,8 +55,9 @@ function Contact() {
                                 <p className="error-text">{errorMessage}</p>
                             </div>
                         )}
-                        <button className="btn btn-primary" data-testid="button" type="submit">Submit</button>
                     </form>
+                    <button className="btn btn-primary" data-testid="button" type="submit">Submit <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+
                 </div>
             </div>
         </section>
