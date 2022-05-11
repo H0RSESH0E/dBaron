@@ -34,12 +34,17 @@ function Contact() {
         }
     };
 
+    // style={{ height: '65vh' }}
+    // style={{ height: '100%' }}
     return (
-        <section className="main-container container">
-            <div className="row flex-column justify-content-center" style={{ height: '65vh' }}>
-                <div className="col-12 d-flex flex-column justify-content-around align-items-center " style={{ height: '100%' }}>            
+        <section className="main-container container ">
+            <div className="row d-flex flex-column justify-content-around align-items-center" >
+                <div className="col-12 d-flex flex-column justify-content-center align-items-center " >
                     <h4 data-testid="h1tag">Contact me</h4>
                     <p style={{ maxWidth: '400px', textAlign: 'center' }}>If you would like to connect with me, please leave me your name, email and a brief message.</p>
+                </div>
+
+                <div className="d-flex justify-content-center ">
                     <form id="contact-form" onSubmit={handleSubmit}>
                         <div className="form-group">
                             <input className="form-control" placeholder="name" type="text" name="name" defaultValue={name} onBlur={handleChange} />
@@ -56,8 +61,10 @@ function Contact() {
                             </div>
                         )}
                     </form>
-                    <button className="btn btn-primary" data-testid="button" type="submit">Submit <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                </div>
 
+                <div className="d-flex justify-content-center  ">
+                    <button className="btn btn-primary" data-testid="button" type="submit">Submit <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
                 </div>
             </div>
         </section>

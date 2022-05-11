@@ -17,7 +17,7 @@ function Modal({ projectObject, onClose }) {
                         />
                     </div>
                 </div>
-<br></br>
+                <br></br>
                 <div className="row justify-content-center">
                     <div className="col-6 d-flex justify-content-center">
 

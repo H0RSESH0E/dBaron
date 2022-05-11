@@ -19,11 +19,11 @@ body {
 
 
 
-* {
-  /* background-color: rgba(94, 204, 247, 0.356); */
-  /* border: 1px dotted rgb(0, 0, 0); */
+/* .container {
+  background-color: rgba(94, 204, 247, 0.356);
+  border: 1px dotted rgb(0, 0, 0);
   
-}
+} */
 
 header {
   padding-top: 15px;
@@ -46,7 +46,7 @@ main {
 }
 .main-container {
   margin-top: 15px;
-  height: 95%;
+  margin-bottom: 15px;
 }
 
 form  {
@@ -92,7 +92,7 @@ img.about {
   background-color: rgba(17, 221, 95, 0.932);
 }
 .crimson {
-  background-color: rgba(110, 25, 60, 0.932);
+  background-color: rgba(110, 25, 60, 0.568);
 }
 
 .aqua {
@@ -130,7 +130,8 @@ img.project {
 	font-weight: 600;
 	margin-bottom: 25px;
 }
-/* TABLETS - TABLETS - TABLETS */
+
+/* MOBILE & TABLET */
 
 @media (max-width: 1000px) {
 
@@ -156,17 +157,14 @@ form  {
 
 }
 
-
-
-
-/* PHONES - PHONES - PHONES */
-
 @media (max-width: 480px) {
 
   header {
     font-size: .95rem;
   }
-
+  footer{
+    font-size: 1.3rem;
+  }
   .nav-tabs .nav-link {
     padding: 0.3rem 0.5rem;
   }
@@ -189,7 +187,9 @@ form  {
     header {
       font-size: 1rem;
     }
-  
+    footer{
+      font-size: 1.5rem;
+    }
     .nav-tabs .nav-link {
       padding: 0.1rem 0.5rem;
     }
