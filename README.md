@@ -10,7 +10,7 @@
 ## Description  
 A straight-forward Portfolio built using React.  At present it is a barebones project that will provide a backbone to a more elaborate project when time permits.  
 &nbsp;  
-<img src="./public/assets/images/Projects/Screenshots/Large/react-screenshot.png" alt="dBaron - Online Portfolio application screenshot" width="600"/>    
+<img src="./public/images/Projects/Screenshots/Large/react-screenshot.png" alt="dBaron - Online Portfolio application screenshot" width="600"/>    
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)   
 &nbsp;  
 ## Installation
