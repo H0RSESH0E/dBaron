@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/dBaron/static/css/main.2c0db045.css",
-    "main.js": "/dBaron/static/js/main.7c1a2248.js",
+    "main.js": "/dBaron/static/js/main.2dc6087b.js",
     "static/js/787.92f46062.chunk.js": "/dBaron/static/js/787.92f46062.chunk.js",
     "static/media/CSS-portfolio-screenshot.png": "/dBaron/static/media/CSS-portfolio-screenshot.4bb5694a421d26821d32.png",
     "static/media/glide-screenshot.png": "/dBaron/static/media/glide-screenshot.414980a04ccb775460b8.png",
     "static/media/peepsAndDeeps-screenshot.png": "/dBaron/static/media/peepsAndDeeps-screenshot.a3c417f0c2ec188a5a8d.png",
     "static/media/runbuddy-screenshot.png": "/dBaron/static/media/runbuddy-screenshot.7af2cb1b3eedf93755e7.png",
     "static/media/MOLM-cover.png": "/dBaron/static/media/MOLM-cover.e5434a5be2905a259900.png",
+    "static/media/react-screenshot2.png": "/dBaron/static/media/react-screenshot2.c7082fcd6997d90b09a4.png",
     "static/media/MOLM-buckslip.png": "/dBaron/static/media/MOLM-buckslip.5db1b49280ac4e332558.png",
     "static/media/David_Baron_resume.pdf": "/dBaron/static/media/David_Baron_resume.6fb71d12e165a2875481.pdf",
     "static/media/work-example-4.png": "/dBaron/static/media/work-example-4.718fc1ae9d19ae95edb5.png",
@@ -17,17 +18,16 @@
     "static/media/work-example-6.png": "/dBaron/static/media/work-example-6.cd549fcbce63092a4a24.png",
     "static/media/Toroid.png": "/dBaron/static/media/Toroid.0c42d4e248c97202725d.png",
     "static/media/react-screenshot.png": "/dBaron/static/media/react-screenshot.65115b2755bd8237f581.png",
-    "static/media/react-screenshot2.png": "/dBaron/static/media/react-screenshot2.65115b2755bd8237f581.png",
-    "static/media/work-example-5.png": "/dBaron/static/media/work-example-5.4d87da497b9d53d882a2.png",
     "static/media/AvenirLTStd-Roman.otf": "/dBaron/static/media/AvenirLTStd-Roman.59733e93d37cc3493df1.otf",
+    "static/media/work-example-5.png": "/dBaron/static/media/work-example-5.5feb6faabd833937edb3.png",
     "static/media/Cache-Regular.ttf": "/dBaron/static/media/Cache-Regular.76beb775ba7985ab5efb.ttf",
     "index.html": "/dBaron/index.html",
     "main.2c0db045.css.map": "/dBaron/static/css/main.2c0db045.css.map",
-    "main.7c1a2248.js.map": "/dBaron/static/js/main.7c1a2248.js.map",
+    "main.2dc6087b.js.map": "/dBaron/static/js/main.2dc6087b.js.map",
     "787.92f46062.chunk.js.map": "/dBaron/static/js/787.92f46062.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2c0db045.css",
-    "static/js/main.7c1a2248.js"
+    "static/js/main.2dc6087b.js"
   ]
 }
