@@ -19,7 +19,7 @@ A straight-forward Portfolio built using React.  At present it is a barebones pr
 Use gh-pages to deploy the applications code.  
 &nbsp;  
 ## Usage
-N/a  
+This application plainly demonstrates the firm understanding I have of Web Development fundamentals.
 &nbsp;  
 ## License  
 
