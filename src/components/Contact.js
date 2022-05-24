@@ -41,6 +41,7 @@ function Contact() {
             <div className="row d-flex flex-column justify-content-around align-items-center" >
                 <div className="col-12 d-flex flex-column justify-content-center align-items-center " >
                     <h4 data-testid="h1tag">Contact me</h4>
+                    <a href="mailto:dcpb777@gmail.com" target="_blank"><h5>Email Me</h5></a>
                     <p style={{ maxWidth: '400px', textAlign: 'center' }}>If you would like to connect with me, please leave me your name, email and a brief message.</p>
                 </div>
 
