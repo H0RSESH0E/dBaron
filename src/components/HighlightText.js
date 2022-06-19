@@ -28,6 +28,7 @@ function highlightText({ item }) {
                     src={`${randPaint()}`} />
             </div>
             {set && <>
+            <div className="spacing-div"></div>
                 {
                     set.map((set_item, index) => (
                         <div key={set_item} className="set-set_item-div">

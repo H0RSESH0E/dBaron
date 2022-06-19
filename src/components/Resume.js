@@ -1,5 +1,6 @@
 import React from 'react'
-import Cv from '../assets/David_Baron_resume.pdf';
+// import Cv from 'https://docs.google.com/document/d/1pdng45RDubj9XhWXYtLQFIjbwBGNJLytzFWsDjX0xuY/export?format=pdf';
+// import Cv from '../assets/David_Baron_resume.pdf';
 import HighlightText from './HighlightText.js';
 import { skillsNTech } from './states.js';
 
@@ -25,7 +26,7 @@ function Resume() {
                         <h5 style={{ textAlign: 'center' }}>Please download my whole web development CV here:</h5>
                     </div>
                     <div className="d-flex justify-content-center ">
-                        <a href={Cv} download="David_Baron_resume.pdf"><button className="btn btn-primary"><i className="fa fa-file-pdf-o" aria-hidden="true"></i> Download</button></a>
+                        <a href="https://docs.google.com/document/d/1pdng45RDubj9XhWXYtLQFIjbwBGNJLytzFWsDjX0xuY/export?format=pdf" download="David_Baron_resume.pdf"><button className="btn btn-primary"><i className="fa fa-file-pdf-o" aria-hidden="true"></i> Download</button></a>
                     </div>
 
                 </div>
