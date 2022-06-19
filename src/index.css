@@ -15,20 +15,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(../public/images/bg-texture.jpg);
-  background-color: lightgrey;
-  background-size: cover;
+  /* background-image: url(../public/images/bg-texture.jpg);
+  background-color: rgb(197, 255, 127);
+  background-size: 1366px;
+background-repeat: repeat; */
 }
 
 /* * {
-  border: 1px dotted rgb(0, 0, 0);
+  border: 1px dotted hotpink;
+}
 
+.aqua {
+  background-color: rgba(0, 255, 255, 0.138);
+}
+
+.brown {
+  background-color: rgba(165, 42, 42, 0.419);
+}
+
+.red {
+  background-color: rgba(255, 0, 0, 0.3);
 } */
 
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
   color: #495057;
   background-color: rgba(255, 255, 255, 0.216);
-  border-color: #495057 #495057 #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
 }
 
 /* .container {
@@ -38,11 +50,13 @@ body {
 } */
 
 .header-container {
+  z-index: 5;
   position: sticky;
   top: 0;
   width: 100%;
   height: auto;
   background-color: white;
+  border-bottom: 1px solid #dee2e6;
 }
 
 
@@ -52,6 +66,10 @@ header {
 }
 .header-space{
   height: 100px;
+}
+
+.nav-tabs {
+  border-bottom: none;
 }
 
 .portfolio-item {
@@ -83,18 +101,18 @@ border: 2px dotted rgb(255, 0, 89); */
   font-weight: bolder;
   font-size: 32px;
   color: white;
-  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.500), 1px -1px 0 rgba(0, 0, 0, 0.500), -1px 1px 0 rgba(0, 0, 0, 0.500), 1px 1px 0 rgba(0, 0, 0, 0.500), 5px 5px 10px rgba(0, 0, 0, 0.200), 6px 6px 10px rgba(0, 0, 0, 0.200), 7px 7px 10px rgba(0, 0, 0, 0.500), 7px 7px 15px rgba(0, 0, 0, 0.400);
+  text-shadow: -1px -1px 2px rgba(0, 0, 0, 0.700), 1px -1px 2px rgba(0, 0, 0, 0.700), -1px 1px 2px rgba(0, 0, 0, 0.700), 1px 1px 2px rgba(0, 0, 0, 0.700),  7px 7px 8px rgba(0, 0, 0, 0.600);
 }
 
 img.highlight-stroke-div {
   position: absolute;
-  left: -65px;
-  top: -45px;
-  width: 390px;
-  height: 165px;
+  left: -5px;
+  top: -10px;
+  width: 260px;
+  height: 100px;
   z-index: -1;
-  mix-blend-mode: color-burn;
-  opacity: 1;
+  /* mix-blend-mode: color-burn; */
+  opacity: 0.75;
 }
 
 .spacing-div {
@@ -194,10 +212,10 @@ main {
 }
 
 footer {
-  position: fixed;
+  /* position: fixed;
   bottom: 0px;
   left: 50%;
-  transform: translate(-50%,0%);
+  transform: translate(-50%,0%); */
 }
 
 form {
@@ -238,7 +256,9 @@ li {
 
 img.about {
   padding: 20px;
-  width: 275px;
+  width: 100%;
+  max-width: 275px;
+  min-width: 230px;
 }
 
 img.project {

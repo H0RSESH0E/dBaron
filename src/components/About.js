@@ -12,10 +12,7 @@ function About() {
                 </div>
                 <div className="col-12 col-md-9 d-flex align-items-center flex-column">
                     <div className="col-12 d-flex justify-content-start ">
-              
-                            <HighlightText key={{name: "About me: "}} item={{name: "About me: "}} />
-
-                        {/* <h4 className="paint-stroke-shadow">A little about me:</h4> */}
+                                          <HighlightText key={{name: "About me: "}} item={{name: "About me: "}} />
                         <br></br>  
                     </div>
                     <p>
