@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/dBaron/static/css/main.efcc9066.css",
-    "main.js": "/dBaron/static/js/main.b9976857.js",
+    "main.css": "/dBaron/static/css/main.881e760a.css",
+    "main.js": "/dBaron/static/js/main.bea8dbe1.js",
     "static/js/787.92f46062.chunk.js": "/dBaron/static/js/787.92f46062.chunk.js",
+    "static/media/test-bg.jpg": "/dBaron/static/media/test-bg.1164eab57c6ac7078066.jpg",
+    "static/media/bg-texture.jpg": "/dBaron/static/media/bg-texture.d7a1f0aacaeead48ab4b.jpg",
     "static/media/CSS-portfolio-screenshot.png": "/dBaron/static/media/CSS-portfolio-screenshot.4bb5694a421d26821d32.png",
     "static/media/glide-screenshot.png": "/dBaron/static/media/glide-screenshot.414980a04ccb775460b8.png",
     "static/media/peepsAndDeeps-screenshot.png": "/dBaron/static/media/peepsAndDeeps-screenshot.a3c417f0c2ec188a5a8d.png",
@@ -19,7 +21,6 @@
     "static/media/MOLM-buckslip.png": "/dBaron/static/media/MOLM-buckslip.5db1b49280ac4e332558.png",
     "static/media/screenshot.png": "/dBaron/static/media/screenshot.f0bfe744239494f814be.png",
     "static/media/profile-pic.jpg": "/dBaron/static/media/profile-pic.ee0392d6a0fbda974b09.jpg",
-    "static/media/David_Baron_resume.pdf": "/dBaron/static/media/David_Baron_resume.22803d5f1bd1d8eba38e.pdf",
     "static/media/work-example-4.png": "/dBaron/static/media/work-example-4.718fc1ae9d19ae95edb5.png",
     "static/media/work-example-2.png": "/dBaron/static/media/work-example-2.5d918633c1867f389411.png",
     "static/media/work-example-3.png": "/dBaron/static/media/work-example-3.640dc487ea196461e600.png",
@@ -31,12 +32,12 @@
     "static/media/work-example-5.png": "/dBaron/static/media/work-example-5.50bfe2dc930627c3e64a.png",
     "static/media/Cache-Regular.ttf": "/dBaron/static/media/Cache-Regular.76beb775ba7985ab5efb.ttf",
     "index.html": "/dBaron/index.html",
-    "main.efcc9066.css.map": "/dBaron/static/css/main.efcc9066.css.map",
-    "main.b9976857.js.map": "/dBaron/static/js/main.b9976857.js.map",
+    "main.881e760a.css.map": "/dBaron/static/css/main.881e760a.css.map",
+    "main.bea8dbe1.js.map": "/dBaron/static/js/main.bea8dbe1.js.map",
     "787.92f46062.chunk.js.map": "/dBaron/static/js/787.92f46062.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.efcc9066.css",
-    "static/js/main.b9976857.js"
+    "static/css/main.881e760a.css",
+    "static/js/main.bea8dbe1.js"
   ]
 }
