@@ -17,7 +17,6 @@ function App() {
       <div className="container-xl">
         <div className="first-row row justify-content-center">
           <div className="col-12 d-flex flex-column justify-content-between">
-            {/* <div className="header-space"></div> */}
             <Main windowLocations={windowLocations} currentWindow={currentWindow} setCurrentWindow={setCurrentWindow} />
             <Footer />
           </div>
