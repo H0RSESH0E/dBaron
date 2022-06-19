@@ -1,7 +1,14 @@
 import React, { useState } from 'react'
-import { projectsArr } from './states.js';
+import { projectsArr, paintStrokes, skillsNTech } from './states.js';
 import Modal from './Modal.js';
+import HighlightText from './HighlightText.js';
+
 console.log(projectsArr);
+
+function randPaint() {
+    let i = Math.floor(Math.random() * 6)
+    return require(`../../public/images/${paintStrokes[i].fileName}`);
+}
 
 function Projects() {
 
@@ -20,32 +27,34 @@ function Projects() {
             <div className="row justify-content-around">
                 {projectsArr.map((project, i) => (
                     <>
-                        <div className="d-flex justify-content-start flex-column align-items-center " style={{ width: '350px' }}>
 
-                            <div className="row d-flex justify-content-around">
-                                <div className="col-9">
-                                    <h5 style={{ textAlign: 'start', width: '150px' }}>{project.name}</h5>
+                        <div className="portfolio-item d-flex justify-content-start flex-column align-items-center " style={{ width: '350px' }}>
+
+                            <div className="portfolio-item-header row d-flex justify-content-around">
+                                <div className="portfolio-item-title col-9">
+                                    <HighlightText key={project.name} item={project} />
                                 </div>
                                 <div className="col-3 d-flex justify-content-center align-items-center">
                                     <a href={project.readmeLink} title="See the repo" rel="noopener noreferrer" target="_blank">
-                                        <h5><i class="fa fa-github-alt" aria-hidden="true"></i></h5>
+                                        <h3><i className="fa fa-github-alt" aria-hidden="true"></i></h3>
                                     </a>
                                 </div>
                             </div>
 
-                                <img
-                                    src={require(`../../public/images/Projects/Screenshots/Small/${project.screenshots[0].small[0]}`)}
-                                    alt={project.name}
-                                    className="project img-thumbnail"
-                                    onClick={() => toggleModal(project, i)}
-                                    key={project.name}
-                                />
-                            <a href={project.deploymentLink} title="See the deployment" rel="noopener noreferrer" target="_blank">
+                            <img
+                                src={require(`../../public/images/Projects/Screenshots/Small/${project.screenshots[0].small[0]}`)}
+                                alt={project.name}
+                                className="project img-thumbnail"
+                                onClick={() => toggleModal(project, i)}
+                                key={project.name}
+                            />
+                            <div className="click-to-enlarge">Click to Enlarge</div>
+                            {/* <a href={project.deploymentLink} title="See the deployment" rel="noopener noreferrer" target="_blank">
                                 Deployment Link
-                            </a>
-                            <br></br>
+                            </a> */}
+                   
                             <div style={{ width: '200px' }}>
-                                <p style={{ textAlign: 'center' }} >{project.description}</p>
+                                <p className="project-description" style={{ textAlign: 'center' }} >{project.description}</p>
                             </div>
                         </div>
                     </>

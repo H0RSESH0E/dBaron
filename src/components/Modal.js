@@ -12,7 +12,7 @@ function Modal({ projectObject, onClose }) {
                         <img
                             src={require(`../../public/images/Projects/Screenshots/Large/${screenshots[1].large[0]}`)}
                             alt={name}
-                            className="project img-thumbnail"
+                            className="project img-large"
                             key={name}
                         />
                     </div>
@@ -27,7 +27,7 @@ function Modal({ projectObject, onClose }) {
                     </div>
 
                     <div className="col-6 d-flex justify-content-center">
-                        <a href={readmeLink} title="README.md" rel="noopener noreferrer" target="_blank">README.md <i class="fa fa-github" aria-hidden="true"></i></a>
+                        <a href={readmeLink} title="README.md" rel="noopener noreferrer" target="_blank">README.md <i className="fa fa-github" aria-hidden="true"></i></a>
 
                     </div>
                 </div>
@@ -42,7 +42,7 @@ function Modal({ projectObject, onClose }) {
 
                 <div className="row justify-content-center">
                     <div className="col-12 d-flex justify-content-center">
-                        <button className="btn btn-primary" type="button" onClick={onClose}><i class="fa fa-window-close" aria-hidden="true"></i> Close
+                        <button className="btn btn-primary" type="button" onClick={onClose}><i className="fa fa-window-close" aria-hidden="true"></i> Close
                         </button>
                     </div>
                 </div>

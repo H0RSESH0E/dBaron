@@ -13,4 +13,21 @@ const projectsArr = [
     {name: "React", description: "A clean portfolio website built using React", readmeLink: "https://github.com/H0RSESH0E/dBaron/tree/main/d-baron#readme", deploymentLink: "", screenshots: [{small:["work-example-5.png"]},{large:["react-screenshot2.png"]}]},
     {name: "mongoDB", description: "A backend utilizing mongoDB's cloud database", readmeLink: "https://github.com/H0RSESH0E/peepsAndDeepsAPI#readme", deploymentLink: "https://github.com/H0RSESH0E/peepsAndDeepsAPI", screenshots: [{small:["work-example-6.png"]},{large:["peepsAndDeeps-screenshot.png"]}]}
 ]
-module.exports = {navBarArr, projectsArr};
+
+const skillsNTech = [
+    {name: "Front-End:", set: ["HTML5", "CSS3", "Bootstrap", "JavaScript", "jQuery", "AJAX", "React"]},
+    {name: "Back-End:", set: ["Node.js", "Express", "MySQL", "Sequelize ORM", "MongoDB", "Mongoose ODM", "Insomnia"]},
+    {name: "Concepts:", set: ["APIs", "REST", "MVC", "TDD", "JSON", "XML"]},
+    {name: "Tools:", set: ["Git", "Github", "GitLab", "Firebase", "Heroku", "JawsDB", "Visual Studio Code"]},
+    {name: "Certifications:", set: ["Teacher Grades K-6 OCT", "The Art of Encouragement - Ontario Society of Adlerian Psychology"]}
+]
+
+const paintStrokes = [
+    {name: "Red", fileName: "redStroke.png"},
+    {name: "Orange", fileName: "orangeStroke.png"},
+    {name: "Yellow", fileName: "yellowStroke.png"},
+    {name: "Green", fileName: "greenStroke.png"},
+    {name: "Blue", fileName: "blueStroke.png"},
+    {name: "Violet", fileName: "violetStroke.png"}
+]
+module.exports = {navBarArr, projectsArr, paintStrokes, skillsNTech};
