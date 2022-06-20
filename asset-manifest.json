@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dBaron/static/css/main.f843980b.css",
-    "main.js": "/dBaron/static/js/main.94ba56b9.js",
+    "main.css": "/dBaron/static/css/main.f835f211.css",
+    "main.js": "/dBaron/static/js/main.4c9b10f8.js",
     "static/js/787.92f46062.chunk.js": "/dBaron/static/js/787.92f46062.chunk.js",
     "static/media/test-bg.jpg": "/dBaron/static/media/test-bg.1164eab57c6ac7078066.jpg",
     "static/media/CSS-portfolio-screenshot.png": "/dBaron/static/media/CSS-portfolio-screenshot.4bb5694a421d26821d32.png",
@@ -25,19 +25,31 @@
     "static/media/work-example-2.png": "/dBaron/static/media/work-example-2.5d918633c1867f389411.png",
     "static/media/work-example-3.png": "/dBaron/static/media/work-example-3.640dc487ea196461e600.png",
     "static/media/work-example-6.png": "/dBaron/static/media/work-example-6.cd549fcbce63092a4a24.png",
+    "static/media/stroke-four.jpg": "/dBaron/static/media/stroke-four.ed69723081fc3e0d656e.jpg",
+    "static/media/stroke-two.jpg": "/dBaron/static/media/stroke-two.5bed7cf46b36129203d5.jpg",
+    "static/media/stroke-six.jpg": "/dBaron/static/media/stroke-six.c0f24fe3279e44dbc6dc.jpg",
+    "static/media/stroke-five.jpg": "/dBaron/static/media/stroke-five.5541d47a51c1404728b4.jpg",
+    "static/media/stroke-one.jpg": "/dBaron/static/media/stroke-one.1c98b375c312b2b9b9f5.jpg",
+    "static/media/stroke-three.jpg": "/dBaron/static/media/stroke-three.4d749f94cca77e17c1bc.jpg",
     "static/media/Toroid.png": "/dBaron/static/media/Toroid.0c42d4e248c97202725d.png",
     "static/media/react-screenshot.png": "/dBaron/static/media/react-screenshot.65115b2755bd8237f581.png",
     "static/media/AvenirLTStd-Roman.otf": "/dBaron/static/media/AvenirLTStd-Roman.59733e93d37cc3493df1.otf",
     "static/media/work-example-1.png": "/dBaron/static/media/work-example-1.1afe11c429eebda19793.png",
+    "static/media/paint-two.jpg": "/dBaron/static/media/paint-two.c03685fc77696e613c07.jpg",
+    "static/media/paint-one.jpg": "/dBaron/static/media/paint-one.1108aaa4f60b774f19ec.jpg",
+    "static/media/paint-three.jpg": "/dBaron/static/media/paint-three.b2a24db6d5e19dd507e7.jpg",
+    "static/media/paint-four.jpg": "/dBaron/static/media/paint-four.9043299a2824366752a6.jpg",
     "static/media/work-example-5.png": "/dBaron/static/media/work-example-5.50bfe2dc930627c3e64a.png",
+    "static/media/paint-five.jpg": "/dBaron/static/media/paint-five.451b6d2d4bae02965395.jpg",
+    "static/media/paint-six.jpg": "/dBaron/static/media/paint-six.97a00a94f4bce412299b.jpg",
     "static/media/Cache-Regular.ttf": "/dBaron/static/media/Cache-Regular.76beb775ba7985ab5efb.ttf",
     "index.html": "/dBaron/index.html",
-    "main.f843980b.css.map": "/dBaron/static/css/main.f843980b.css.map",
-    "main.94ba56b9.js.map": "/dBaron/static/js/main.94ba56b9.js.map",
+    "main.f835f211.css.map": "/dBaron/static/css/main.f835f211.css.map",
+    "main.4c9b10f8.js.map": "/dBaron/static/js/main.4c9b10f8.js.map",
     "787.92f46062.chunk.js.map": "/dBaron/static/js/787.92f46062.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f843980b.css",
-    "static/js/main.94ba56b9.js"
+    "static/css/main.f835f211.css",
+    "static/js/main.4c9b10f8.js"
   ]
 }
