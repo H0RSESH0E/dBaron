@@ -17,8 +17,8 @@ const projectsArr = [
 const skillsNTech = [
     {name: "Front-End:", set: ["HTML5", "CSS3", "Bootstrap", "JavaScript", "jQuery", "React"]},
     {name: "Back-End:", set: ["Node.js", "Express", "MySQL", "Sequelize", "MongoDB",'Jest', "Insomnia"]},
-    {name: "Concepts:", set: ["APIs", "REST", "MVC", "TDD", "JSON", "XML"]},
-    {name: "Tools:", set: ["Git", "GitHub", "GitLab", "Heroku", "Visual Studio Code"]},
+    {name: "Concepts:", set: ["APIs", "REST", "MVC", "TDD"]},
+    {name: "Tools:", set: ["Git", "GitHub", "GitLab", "Heroku", "Visual Studio Code",'Corel Photo Paint', 'Starbucks']},
     {name: "Certifications:", set: ["The Art of Encouragement - Ontario Society of Adlerian Psychology"]}
 ]
 
