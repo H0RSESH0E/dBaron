@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dBaron/static/css/main.ea80fcf7.css",
-    "main.js": "/dBaron/static/js/main.59e1c0b9.js",
+    "main.css": "/dBaron/static/css/main.6bf4d542.css",
+    "main.js": "/dBaron/static/js/main.cd6042f8.js",
     "static/js/787.92f46062.chunk.js": "/dBaron/static/js/787.92f46062.chunk.js",
     "static/media/test-bg.jpg": "/dBaron/static/media/test-bg.1164eab57c6ac7078066.jpg",
     "static/media/CSS-portfolio-screenshot.png": "/dBaron/static/media/CSS-portfolio-screenshot.4bb5694a421d26821d32.png",
@@ -44,12 +44,12 @@
     "static/media/paint-six.jpg": "/dBaron/static/media/paint-six.97a00a94f4bce412299b.jpg",
     "static/media/Cache-Regular.ttf": "/dBaron/static/media/Cache-Regular.76beb775ba7985ab5efb.ttf",
     "index.html": "/dBaron/index.html",
-    "main.ea80fcf7.css.map": "/dBaron/static/css/main.ea80fcf7.css.map",
-    "main.59e1c0b9.js.map": "/dBaron/static/js/main.59e1c0b9.js.map",
+    "main.6bf4d542.css.map": "/dBaron/static/css/main.6bf4d542.css.map",
+    "main.cd6042f8.js.map": "/dBaron/static/js/main.cd6042f8.js.map",
     "787.92f46062.chunk.js.map": "/dBaron/static/js/787.92f46062.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea80fcf7.css",
-    "static/js/main.59e1c0b9.js"
+    "static/css/main.6bf4d542.css",
+    "static/js/main.cd6042f8.js"
   ]
 }
