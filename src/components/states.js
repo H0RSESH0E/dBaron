@@ -30,4 +30,22 @@ const paintStrokes = [
     {name: "Blue", fileName: "blueStroke.png"},
     {name: "Violet", fileName: "violetStroke.png"}
 ]
-module.exports = {navBarArr, projectsArr, paintStrokes, skillsNTech};
+
+const strokeColor = [
+    {name: "paint-one", fileName: "paint-one.jpg"},
+    {name: "paint-two", fileName: "paint-two.jpg"},
+    {name: "paint-three", fileName: "paint-three.jpg"},
+    {name: "paint-four", fileName: "paint-four.jpg"},
+    {name: "paint-five", fileName: "paint-five.jpg"},
+    {name: "paint-six", fileName: "paint-six.jpg"}
+]
+
+const strokeShape = [
+    {name: "stroke-one", fileName: "stroke-one.jpg"},
+    {name: "stroke-two", fileName: "stroke-two.jpg"},
+    {name: "stroke-three", fileName: "stroke-three.jpg"},
+    {name: "stroke-four", fileName: "stroke-four.jpg"},
+    {name: "stroke-five", fileName: "stroke-five.jpg"},
+    {name: "stroke-six", fileName: "stroke-six.jpg"}
+]
+module.exports = {navBarArr, projectsArr, paintStrokes, skillsNTech, strokeColor, strokeShape };

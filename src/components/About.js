@@ -1,5 +1,6 @@
 import React from 'react'
-import HighlightText from './HighlightText.js';
+import RandomHighlight from './RandomHighlight.js';
+
 
 function About() {
     return (
@@ -12,8 +13,8 @@ function About() {
                 </div>
                 <div className="col-12 col-md-9 d-flex align-items-center flex-column">
                     <div className="col-12 d-flex justify-content-start ">
-                                          <HighlightText key={{name: "About me: "}} item={{name: "About me: "}} />
-                        <br></br>  
+                        <RandomHighlight key={{ name: "About me: " }} item={{ name: "About me: " }} />
+                        <br></br>
                     </div>
                     <p>
                         I’m a full-stack web developer leveraging an interdisciplinary background to conceive and implement innovative applications. I recently earned a Certificate in Full Stack Web Development from the University of Toronto with newly developed skills in Javascript, CSS, responsive design, Node, MongoDB/Mongoose, MySQL, GraphQL and React.  Recognized by team members for my morale-boosting attitude, insightful analysis and inspirational vision, I’m dedicated to polished and innovative applications that make and maintain high quality user experiences. Keeping my team's experience in the forefront of my mind, I strive to communicate salient details that highlight opportunity.  I’m always looking forward to contributing my simultaneously holistic and analytical creative approach to a high-performance and goal-oriented team.                    </p>

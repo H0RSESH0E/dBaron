@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { projectsArr, paintStrokes, skillsNTech } from './states.js';
 import Modal from './Modal.js';
-import HighlightText from './HighlightText.js';
+import RandomHighlight from './RandomHighlight.js';
 
 console.log(projectsArr);
 
@@ -32,7 +32,7 @@ function Projects() {
 
                             <div className="portfolio-item-header row d-flex justify-content-around">
                                 <div className="portfolio-item-title col-9">
-                                    <HighlightText key={project.name} item={project} />
+                                    <RandomHighlight key={project.name} item={project} />
                                 </div>
                                 <div className="col-3 d-flex justify-content-center align-items-center">
                                     <a href={project.readmeLink} title="See the repo" rel="noopener noreferrer" target="_blank">

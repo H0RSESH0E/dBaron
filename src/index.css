@@ -110,7 +110,7 @@ img.highlight-stroke-div {
   height: 100px;
   z-index: -1;
   /* mix-blend-mode: color-burn; */
-  opacity: 0.75;
+  opacity: 1;
 }
 
 .spacing-div {
@@ -156,6 +156,13 @@ img.contact-bg-stroke {
   width: 240px;
   height: 120px;
   z-index: -1;
+}
+.upper{
+  mix-blend-mode: lighten;
+}
+
+.lower{
+  mix-blend-mode: darken;
 }
 
 .portfolio-item-header {
@@ -210,10 +217,11 @@ main {
 }
 
 footer {
-  /* position: fixed;
+  background-color: white;
+  position: fixed;
   bottom: 0px;
   left: 50%;
-  transform: translate(-50%,0%); */
+  transform: translate(-50%,0%);
 }
 
 form {
@@ -345,6 +353,9 @@ img.project {
   background-color: white;
   border: 1px solid blue;
 }
+
+
+
 
 /* MOBILE & TABLET */
 

@@ -1,15 +1,9 @@
 import React, { useState } from 'react'
-import HighlightText from './HighlightText.js';
+import RandomHighlight from './RandomHighlight.js';
 
 import { validateEmail } from '../utils/helpers';
 
 import { paintStrokes } from './states.js';
-
-function randPaint() {
-    let i = Math.floor(Math.random() * 6)
-    return require(`../../public/images/${paintStrokes[i].fileName}`);
-}
-
 
 function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -42,16 +36,11 @@ function Contact() {
         }
     };
 
-    // style={{ height: '65vh' }}
-    // style={{ height: '100%' }}
     return (
         <section className="main-container container ">
             <div className="row d-flex flex-column justify-content-around align-items-center" >
                 <div className="col-12 d-flex flex-column justify-content-center align-items-center " >
-
-                            <HighlightText key={{name: "Contact me: "}} item={{name: "Contact me: "}} />
-
-                    {/* <h4 data-testid="h1tag" className="paint-stroke-shadow">Contact me</h4> */}
+                    <RandomHighlight key={{ name: "Contact me: " }} item={{ name: "Contact me: " }} />
                     <a href="mailto:dcpb777@gmail.com" rel="noopener noreferrer" target="_blank"><h5>Email Me</h5></a>
                     <p style={{ maxWidth: '400px', textAlign: 'center' }}>If you would like to connect with me, please leave me your name, email and a brief message.</p>
                 </div>

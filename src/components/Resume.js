@@ -1,7 +1,5 @@
 import React from 'react'
-// import Cv from 'https://docs.google.com/document/d/1pdng45RDubj9XhWXYtLQFIjbwBGNJLytzFWsDjX0xuY/export?format=pdf';
-// import Cv from '../assets/David_Baron_resume.pdf';
-import HighlightText from './HighlightText.js';
+import RandomHighlight from './RandomHighlight.js';
 import { skillsNTech } from './states.js';
 
 
@@ -16,7 +14,7 @@ function Resume() {
                         <h4 style={{ textAlign: 'center' }}>Here is a quick overview of skills I bring to web development roles:</h4>
                         <br></br>
                         {skillsNTech.map((item, i) => (
-                            <HighlightText key={item.name} item={item} />
+                            <RandomHighlight key={item.name} item={item} />
 
                         ))}
 
