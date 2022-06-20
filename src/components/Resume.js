@@ -21,7 +21,7 @@ function Resume() {
                     </div>
 
                     <div className="d-flex justify-content-center ">
-                        <h5 style={{ textAlign: 'center' }}>Please download my whole web development CV here:</h5>
+                        <h5 style={{ textAlign: 'center' }}>Please download my CV here:</h5>
                     </div>
                     <div className="d-flex justify-content-center ">
                         <a href="https://docs.google.com/document/d/1pdng45RDubj9XhWXYtLQFIjbwBGNJLytzFWsDjX0xuY/export?format=pdf" download="David_Baron_resume.pdf"><button className="btn btn-primary"><i className="fa fa-file-pdf-o" aria-hidden="true"></i> Download</button></a>

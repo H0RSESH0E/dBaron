@@ -2,7 +2,7 @@ import React from 'react'
 import { strokeShape, strokeColor } from './states.js';
 import { langShieldsObj } from '../utils/languages.js';
 
-function RandomHighlight ({ item }) {
+function RandomHighlight({ item }) {
     // console.log('--> ',langShieldsObj());
     let y = langShieldsObj();
     const { name, set } = item;
@@ -14,12 +14,12 @@ function RandomHighlight ({ item }) {
 
     }
 
-    function randColor () {
+    function randColor() {
         let i = Math.floor(Math.random() * 6)
         return require(`../../public/images/${strokeColor[i].fileName}`);
     }
 
-    function randStroke () {
+    function randStroke() {
         let i = Math.floor(Math.random() * 6)
         return require(`../../public/images/${strokeShape[i].fileName}`);
     }
@@ -35,20 +35,18 @@ function RandomHighlight ({ item }) {
                     key={"bg-stroke" + name}
                     src={`${randColor()}`} />
             </div>
-            {set && <>
-                <div className="spacing-div"></div>
-                {
-                    set.map((set_item, index) => (
-                        <div key={set_item} className="set-set_item-div">
-                            {!y[set_item] ? <div key={set_item + index} className="custom-badge">{set_item}</div> : <img src={`${y[set_item]}`} />}
-                        </div>
-                    ))
+            <div className="badge-collection">
+                {set && <>
+                    {
+                        set.map((set_item, index) => (
+                            <div key={set_item} className="set-set_item-div">
+                                {!y[set_item] ? <div key={set_item + index} className="custom-badge">{set_item}</div> : <img src={`${y[set_item]}`} />}
+                            </div>
+                        ))
+                    }
+                </>
                 }
-            </>
-            }
-
-
-
+            </div>
         </section>
     )
 }

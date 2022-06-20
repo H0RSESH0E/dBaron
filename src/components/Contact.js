@@ -65,7 +65,7 @@ function Contact() {
                 </div>
 
                 <div className="d-flex justify-content-center  ">
-                    <button className="btn btn-primary" data-testid="button" type="submit">Submit <i className="fa fa-paper-plane" aria-hidden="true"></i></button>
+                    <button className="btn btn-primary" data-testid="button" type="submit">Send <i className="fa fa-paper-plane" aria-hidden="true"></i></button>
                 </div>
             </div>
         </section>
