@@ -5,10 +5,6 @@ import RandomHighlight from './RandomHighlight.js';
 
 console.log(projectsArr);
 
-function randPaint() {
-    let i = Math.floor(Math.random() * 6)
-    return require(`../../public/images/${paintStrokes[i].fileName}`);
-}
 
 function Projects() {
 

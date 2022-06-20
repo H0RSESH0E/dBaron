@@ -3,8 +3,6 @@ import RandomHighlight from './RandomHighlight.js';
 
 import { validateEmail } from '../utils/helpers';
 
-import { paintStrokes } from './states.js';
-
 function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
 
@@ -41,11 +39,11 @@ function Contact() {
             <div className="row d-flex flex-column justify-content-around align-items-center" >
                 <div className="col-12 d-flex flex-column justify-content-center align-items-center " >
                     <RandomHighlight key={{ name: "Contact me: " }} item={{ name: "Contact me: " }} />
+                    <p style={{ maxWidth: '400px', textAlign: 'center' }}>If you would like to connect, please feel free to email me a brief message.</p>
                     <a href="mailto:dcpb777@gmail.com" rel="noopener noreferrer" target="_blank"><h5>Email Me</h5></a>
-                    <p style={{ maxWidth: '400px', textAlign: 'center' }}>If you would like to connect with me, please leave me your name, email and a brief message.</p>
                 </div>
 
-                <div className="d-flex justify-content-center ">
+                {/* <div className="d-flex justify-content-center ">
                     <form id="contact-form" onSubmit={handleSubmit}>
                         <div className="form-group">
                             <input className="form-control" placeholder="name" type="text" name="name" defaultValue={name} onBlur={handleChange} />
@@ -66,7 +64,7 @@ function Contact() {
 
                 <div className="d-flex justify-content-center  ">
                     <button className="btn btn-primary" data-testid="button" type="submit">Send <i className="fa fa-paper-plane" aria-hidden="true"></i></button>
-                </div>
+                </div> */}
             </div>
         </section>
     );

@@ -1,4 +1,6 @@
 import React from 'react';
+import RandomHighlight from './RandomHighlight.js';
+
 
 function Modal({ projectObject, onClose }) {
     const { name, description, readmeLink, deploymentLink, screenshots } = projectObject;
@@ -6,7 +8,7 @@ function Modal({ projectObject, onClose }) {
     return (
         <div className="modalBackdrop d-flex align-items-center">
             <div className="d-flex flex-column modalContainer">
-                <h2 className="modalTitle">{name}</h2>
+            <RandomHighlight key={{ name: name }} item={{ name: name }} />
                 <div className="row justify-content-center">
                     <div className="col-12 d-flex justify-content-center">
                         <img
@@ -42,7 +44,7 @@ function Modal({ projectObject, onClose }) {
 
                 <div className="row justify-content-center">
                     <div className="col-12 d-flex justify-content-center">
-                        <button className="btn btn-primary" type="button" onClick={onClose}><i className="fa fa-window-close" aria-hidden="true"></i> Close
+                        <button className="modal-btn btn btn-primary" type="button" onClick={onClose}><i className="fa fa-window-close" aria-hidden="true"></i> Close
                         </button>
                     </div>
                 </div>

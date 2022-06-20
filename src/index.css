@@ -1,3 +1,21 @@
+/* FOR DEVELOPMENT
+
+* {
+  border: 1px dotted hotpink;
+}
+
+.aqua {
+  background-color: rgba(0, 255, 255, 0.138);
+}
+
+.brown {
+  background-color: rgba(165, 42, 42, 0.419);
+}
+
+.red {
+  background-color: rgba(255, 0, 0, 0.3);
+} */
+
 @font-face {
   font-family: 'cache';
   src: url('../public/css/Cache-Regular.ttf') format('truetype');
@@ -21,21 +39,7 @@ p {
   margin: 0px 10px 10px 10px;
 }
 
-/* * {
-  border: 1px dotted hotpink;
-}
 
-.aqua {
-  background-color: rgba(0, 255, 255, 0.138);
-}
-
-.brown {
-  background-color: rgba(165, 42, 42, 0.419);
-}
-
-.red {
-  background-color: rgba(255, 0, 0, 0.3);
-} */
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
@@ -49,12 +53,6 @@ p {
 .nav-link:hover {
   color: #0d6efd;
 }
-
-/* .container {
-  background-color: rgba(94, 204, 247, 0.116);
-  border: 1px dotted rgb(0, 0, 0);
-  
-} */
 
 .header-container {
   z-index: 5;
@@ -119,10 +117,16 @@ img.highlight-stroke-div {
   width: 220px;
   height: 60px;
   z-index: -1;
-  /* mix-blend-mode: color-burn; */
   opacity: 1;
 }
 
+.modalContainer div.paint-stroke-shadow {
+  z-index: 4;
+/* background-color: aquamarine; */
+}
+.modalContainer img.highlight-stroke-div {
+  z-index: 3;
+}
 .spacing-div {
   width: 30px;
 }
@@ -138,44 +142,6 @@ img.highlight-stroke-div {
   margin: 1px;
 }
 
-
-
-
-.bg-stroke-div {
-  position: relative;
-  height: 0px;
-  width: 0px;
-  background-color: rgba(128, 255, 0, 0.673);
-}
-
-
-
-.bg-stroke-div img {
-  position: absolute;
-  left: -210px;
-  top: -40px;
-  width: 240px;
-  height: 120px;
-  z-index: -1;
-}
-
-img.about-bg-stroke {
-  position: absolute;
-  left: -30px;
-  top: -45px;
-  width: 240px;
-  height: 120px;
-  z-index: -1;
-}
-
-img.contact-bg-stroke {
-  position: absolute;
-  left: -110px;
-  top: -60px;
-  width: 240px;
-  height: 120px;
-  z-index: -1;
-}
 .upper{
   mix-blend-mode: lighten;
 }
@@ -253,6 +219,21 @@ form .btn {
   margin: 15px;
   font-size: 1.5rem;
 letter-spacing: 1px;
+
+}
+
+.modal-btn {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  opacity: .3;
+  background-color: #bcc1c7;
+}
+.modal-btn:hover {
+  background-color: #bcc1c7;
 }
 
 li {
@@ -285,7 +266,7 @@ img.project {
 }
 
 .modalContainer {
-  background: rgba(255, 255, 255, 0.808);
+  background: rgb(255, 255, 255);
   border-radius: 5px;
   max-width: 95%;
   margin: 50px auto;

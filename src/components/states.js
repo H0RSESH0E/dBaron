@@ -22,15 +22,6 @@ const skillsNTech = [
     {name: "Certifications:", set: ["The Art of Encouragement - Ontario Society of Adlerian Psychology"]}
 ]
 
-const paintStrokes = [
-    {name: "Red", fileName: "redStroke.png"},
-    {name: "Orange", fileName: "orangeStroke.png"},
-    {name: "Yellow", fileName: "yellowStroke.png"},
-    {name: "Green", fileName: "greenStroke.png"},
-    {name: "Blue", fileName: "blueStroke.png"},
-    {name: "Violet", fileName: "violetStroke.png"}
-]
-
 const strokeColor = [
     {name: "paint-one", fileName: "paint-one.jpg"},
     {name: "paint-two", fileName: "paint-two.jpg"},
@@ -48,4 +39,4 @@ const strokeShape = [
     {name: "stroke-five", fileName: "stroke-five.jpg"},
     {name: "stroke-six", fileName: "stroke-six.jpg"}
 ]
-module.exports = {navBarArr, projectsArr, paintStrokes, skillsNTech, strokeColor, strokeShape };
+module.exports = {navBarArr, projectsArr, skillsNTech, strokeColor, strokeShape };
