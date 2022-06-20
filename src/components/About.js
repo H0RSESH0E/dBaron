@@ -8,7 +8,7 @@ function About() {
 
 
             <div className="row d-flex justify-content-center">
-                <div className="col-12 col-md-3 d-flex justify-content-center align-items-center">
+                <div className="profile-pic-div col-12 col-md-3 d-flex justify-content-center align-items-center">
                     <img className="about" src={require(`../assets/profile-pic.jpg`)} alt="user avatar" title="H0RSESH0E" />
                 </div>
                 <div className="col-12 col-md-9 d-flex align-items-center flex-column">

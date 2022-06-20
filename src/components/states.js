@@ -15,11 +15,11 @@ const projectsArr = [
 ]
 
 const skillsNTech = [
-    {name: "Front-End:", set: ["HTML5", "CSS3", "Bootstrap", "JavaScript", "jQuery", "AJAX", "React"]},
-    {name: "Back-End:", set: ["Node.js", "Express", "MySQL", "Sequelize ORM", "MongoDB", "Mongoose ODM", "Insomnia"]},
+    {name: "Front-End:", set: ["HTML5", "CSS3", "Bootstrap", "JavaScript", "jQuery", "React"]},
+    {name: "Back-End:", set: ["Node.js", "Express", "MySQL", "Sequelize", "MongoDB",'Jest', "Insomnia"]},
     {name: "Concepts:", set: ["APIs", "REST", "MVC", "TDD", "JSON", "XML"]},
-    {name: "Tools:", set: ["Git", "Github", "GitLab", "Firebase", "Heroku", "JawsDB", "Visual Studio Code"]},
-    {name: "Certifications:", set: ["Teacher Grades K-6 OCT", "The Art of Encouragement - Ontario Society of Adlerian Psychology"]}
+    {name: "Tools:", set: ["Git", "GitHub", "GitLab", "Heroku", "Visual Studio Code"]},
+    {name: "Certifications:", set: ["The Art of Encouragement - Ontario Society of Adlerian Psychology"]}
 ]
 
 const paintStrokes = [

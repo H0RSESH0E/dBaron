@@ -1,5 +1,5 @@
 // arrays of data for language types and markdown links to badges for each
-const languages = ['Apache Groovy', 'C', 'C#', 'C++', 'Crystal', 'CSS3', 'Clojure', 'Dart', 'Elixir', 'Elm', 'Erlang', 'Fortran', 'Go/Golang', 'GraphQL', 'Haskell', 'HTML5', 'Java', 'JavaScript', 'Julia', 'Kotlin', 'LaTeX', 'Lua', 'Markdown', 'Nim', 'Octave', 'PHP', 'Perl', 'Python', 'R', 'Ruby', 'Rust', 'Scala', 'Shell Script', 'Solidity', 'Swift', 'TypeScript', 'Zig', 'MongoDB', 'React', 'Express', 'JSON', 'JSON Web Tokens', 'Node.js', 'Nodemon', 'Apollo GraphQL', 'Visual Studio Code', 'Heroku', 'npm', 'Trello', 'Slack', 'Zoom', 'Google Meet', 'Bootstrap', 'Starbucks']
+const languages = ['Apache Groovy', 'C', 'C#', 'C++', 'Crystal', 'CSS3', 'Clojure', 'Dart', 'Elixir', 'Elm', 'Erlang', 'Fortran', 'Go/Golang', 'GraphQL', 'Haskell', 'HTML5', 'Java', 'JavaScript', 'Julia', 'Kotlin', 'LaTeX', 'Lua', 'Markdown', 'Nim', 'Octave', 'PHP', 'Perl', 'Python', 'R', 'Ruby', 'Rust', 'Scala', 'Shell Script', 'Solidity', 'Swift', 'TypeScript', 'Zig', 'MongoDB', 'React', 'Express', 'JSON', 'JSON Web Tokens', 'Node.js', 'Nodemon', 'Apollo GraphQL', 'Visual Studio Code', 'Heroku', 'npm', 'Trello', 'Slack', 'Zoom', 'Google Meet', 'Bootstrap', 'Starbucks','jQuery','MySQL','Sequelize', 'Insomnia', 'Git','GitHub','GitLab','Jest']
 
 const markdown = [
     'https://img.shields.io/badge/Apache%20Groovy-4298B8.svg?style=for-the-badge&logo=Apache+Groovy&logoColor=white',
@@ -55,7 +55,17 @@ const markdown = [
     'https://img.shields.io/badge/Zoom-2D8CFF.svg?style=for-the-badge&logo=zoom&logoColor=white',
     'https://img.shields.io/badge/Google%20Meet-00897B.svg?style=for-the-badge&logo=googlemeet&logoColor=white',
     'https://img.shields.io/badge/Bootstrap-7952B3.svg?style=for-the-badge&logo=bootstrap&logoColor=white',
-    'https://img.shields.io/badge/Starbucks-006241.svg?style=for-the-badge&logo=starbucks&logoColor=white'
+    'https://img.shields.io/badge/Starbucks-006241.svg?style=for-the-badge&logo=starbucks&logoColor=white',
+    'https://img.shields.io/badge/jQuery-0769AD.svg?style=for-the-badge&logo=jquery&logoColor=white',
+    'https://img.shields.io/badge/MySQL-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white',
+    'https://img.shields.io/badge/Sequelize-52B0E7.svg?style=for-the-badge&logo=sequelize&logoColor=white',
+    'https://img.shields.io/badge/Insomnia-4000BF.svg?style=for-the-badge&logo=insomnia&logoColor=white',
+    'https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=git&logoColor=white',
+    'https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=github&logoColor=white',
+    'https://img.shields.io/badge/GitLab-FC6D26.svg?style=for-the-badge&logo=gitlab&logoColor=white',
+    'https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=jest&logoColor=white'
+
+
 ]
 
 // compiles the arrays as ordered pairs and creates an object for the genReadMe file

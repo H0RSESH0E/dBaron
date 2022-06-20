@@ -11,15 +11,13 @@ function Resume() {
             <section className="main-container container">
                 <div className="row d-flex flex-column justify-content-around align-items-center" >
                     <div className="d-flex col-12 flex-column justify-content-start" style={{ maxWidth: '1150px' }}>
-                        <h4 style={{ textAlign: 'center' }}>Here is a quick overview of skills I bring to web development roles:</h4>
-                        <br></br>
                         {skillsNTech.map((item, i) => (
                             <RandomHighlight key={item.name} item={item} />
 
                         ))}
 
                     </div>
-
+                    <br></br>
                     <div className="d-flex justify-content-center ">
                         <h5 style={{ textAlign: 'center' }}>Please download my CV here:</h5>
                     </div>

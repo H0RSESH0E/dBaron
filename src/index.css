@@ -39,13 +39,15 @@ p {
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #000;
-  background-color: rgba(255, 255, 255, 0.216);
+  color: rgb(131, 131, 131);
   border-color: #dee2e6 #dee2e6 #fff;
 }
 
 .nav-link{
   color: #bcc1c7;
+}
+.nav-link:hover {
+  color: #0d6efd;
 }
 
 /* .container {
@@ -345,10 +347,13 @@ img.project {
 }
 
 .custom-badge {
-  padding: 1px 8px;
-  color: blue;
-  background-color: white;
-  border: 1px solid blue;
+  padding: 6px 8px 3px;
+  color: white;
+  background-color: #0d6efd;
+  border: 1px solid #0d6efd;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+
 }
 
 
@@ -444,6 +449,10 @@ footer div div a {
   .set-div {
     text-align: center;
   }
+.profile-pic-div {
+  align-items: flex-start!important;
+}
+
 }
 
 @media (max-width: 480px) {
