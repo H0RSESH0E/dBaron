@@ -4,7 +4,7 @@ import Modal from './Modal.js';
 import RandomHighlight from './RandomHighlight.js';
 
 console.log(projectsArr);
-
+const body = document.querySelector("body");
 
 function Projects() {
 
@@ -14,6 +14,7 @@ function Projects() {
     function toggleModal(project) {
         setIsModalOpen(!isModalOpen);
         setProjectObject(project);
+        (!isModalOpen) ? body.style.overflow = "hidden" : body.style.overflow = "auto";
     }
 
     return (
@@ -48,7 +49,7 @@ function Projects() {
                             {/* <a href={project.deploymentLink} title="See the deployment" rel="noopener noreferrer" target="_blank">
                                 Deployment Link
                             </a> */}
-                   
+
                             <div style={{ width: '200px' }}>
                                 <p className="project-description" style={{ textAlign: 'center' }} >{project.description}</p>
                             </div>

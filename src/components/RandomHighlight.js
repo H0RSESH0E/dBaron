@@ -35,8 +35,8 @@ function RandomHighlight({ item }) {
                     key={"bg-stroke" + name}
                     src={`${randColor()}`} />
             </div>
-            <div className="badge-collection">
-                {set && <>
+                {set &&             <div className="badge-collection">
+
                     {
                         set.map((set_item, index) => (
                             <div key={set_item} className="set-set_item-div">
@@ -44,9 +44,9 @@ function RandomHighlight({ item }) {
                             </div>
                         ))
                     }
-                </>
+                </div>
                 }
-            </div>
+           
         </section>
     )
 }

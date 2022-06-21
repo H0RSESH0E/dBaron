@@ -6,11 +6,11 @@ function Modal({ projectObject, onClose }) {
     const { name, description, readmeLink, deploymentLink, screenshots } = projectObject;
 
     return (
-        <div className="modalBackdrop d-flex align-items-center">
-            <div className="d-flex flex-column modalContainer">
-            <RandomHighlight key={{ name: name }} item={{ name: name }} />
-                <div className="row justify-content-center">
-                    <div className="col-12 d-flex justify-content-center">
+        <div className="modal-backdrop">
+            <div className="modal-container">
+                <RandomHighlight key={{ name: name }} item={{ name: name }} />
+                <div className="modal-image-row">
+                    <div className="modal-image-col">
                         <img
                             src={require(`../../public/images/Projects/Screenshots/Large/${screenshots[1].large[0]}`)}
                             alt={name}
@@ -42,13 +42,8 @@ function Modal({ projectObject, onClose }) {
                 </div>
                 <br></br>
 
-                <div className="row justify-content-center">
-                    <div className="col-12 d-flex justify-content-center">
-                        <button className="modal-btn btn btn-primary" type="button" onClick={onClose}><i className="fa fa-window-close" aria-hidden="true"></i> Close
-                        </button>
-                    </div>
-                </div>
-
+                <button className="modal-btn btn btn-primary" type="button" onClick={onClose}><i className="fa fa-window-close" aria-hidden="true"></i> Close
+                </button>
             </div>
         </div>
     )
