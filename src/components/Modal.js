@@ -3,12 +3,14 @@ import RandomHighlight from './RandomHighlight.js';
 
 
 function Modal({ projectObject, onClose }) {
+    console.log('Modal: proObj: ', projectObject);
     const { name, description, readmeLink, deploymentLink, screenshots } = projectObject;
 
     return (
         <div className="modal-backdrop">
+            <div className="modal-mobile-spacer"></div>
             <div className="modal-container">
-                <RandomHighlight key={{ name: name }} item={{ name: name }} />
+                <RandomHighlight key={name} item={{ name: name }} />
                 <div className="modal-image-row">
                     <div className="modal-image-col">
                         <img
