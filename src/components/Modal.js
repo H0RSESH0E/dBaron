@@ -8,6 +8,8 @@ function Modal({ projectObject, onClose }) {
 
     return (
         <div className="modal-backdrop">
+                            <button className="modal-btn btn btn-primary" type="button" onClick={onClose}><i className="fa fa-window-close" aria-hidden="true"></i> Close
+                            </button>
             <div className="modal-mobile-spacer"></div>
             <div className="modal-container">
                 <RandomHighlight key={name} item={{ name: name }} />
@@ -21,31 +23,15 @@ function Modal({ projectObject, onClose }) {
                         />
                     </div>
                 </div>
-                <br></br>
-                <div className="row justify-content-center">
-                    <div className="col-6 d-flex justify-content-center">
-
-                        <a href={deploymentLink} title="See the deployment" rel="noopener noreferrer" target="_blank">
-                            Deployment Link
-                        </a>
-                    </div>
-
-                    <div className="col-6 d-flex justify-content-center">
-                        <a href={readmeLink} title="README.md" rel="noopener noreferrer" target="_blank">README.md <i className="fa fa-github" aria-hidden="true"></i></a>
-
-                    </div>
+                <div className="modal-links-div">
+                    <a href={deploymentLink} title="See the deployment" rel="noopener noreferrer" target="_blank">
+                        Deployment Link
+                    </a>
+                    <a href={readmeLink} title="README.md" rel="noopener noreferrer" target="_blank">README.md <i className="fa fa-github" aria-hidden="true"></i></a>
                 </div>
-                <br></br>
-
-                <div className="row justify-content-center">
-                    <div className="col-12 d-flex justify-content-center">
-                        <p style={{ textAlign: 'center', width: '350px' }}>{description}</p>
-                    </div>
+                <div className="modal-description-div">
+                    <p >{description}</p>
                 </div>
-                <br></br>
-
-                <button className="modal-btn btn btn-primary" type="button" onClick={onClose}><i className="fa fa-window-close" aria-hidden="true"></i> Close
-                </button>
             </div>
         </div>
     )
