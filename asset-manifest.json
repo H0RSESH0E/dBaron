@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dBaron/static/css/main.6bf4d542.css",
-    "main.js": "/dBaron/static/js/main.cd6042f8.js",
+    "main.css": "/dBaron/static/css/main.9df74dfd.css",
+    "main.js": "/dBaron/static/js/main.6e256744.js",
     "static/js/787.92f46062.chunk.js": "/dBaron/static/js/787.92f46062.chunk.js",
     "static/media/test-bg.jpg": "/dBaron/static/media/test-bg.1164eab57c6ac7078066.jpg",
     "static/media/CSS-portfolio-screenshot.png": "/dBaron/static/media/CSS-portfolio-screenshot.4bb5694a421d26821d32.png",
@@ -18,6 +18,7 @@
     "static/media/violetStroke.png": "/dBaron/static/media/violetStroke.d7ea5145ed0127227a0b.png",
     "static/media/orangeStroke.png": "/dBaron/static/media/orangeStroke.08329b09816ddd1c14e6.png",
     "static/media/yellowStroke.png": "/dBaron/static/media/yellowStroke.b4bf9573bf630af5225b.png",
+    "static/media/workforce-screenshot.png": "/dBaron/static/media/workforce-screenshot.c1a509bdf95a243b487f.png",
     "static/media/MOLM-buckslip.png": "/dBaron/static/media/MOLM-buckslip.5db1b49280ac4e332558.png",
     "static/media/screenshot.png": "/dBaron/static/media/screenshot.f0bfe744239494f814be.png",
     "static/media/profile-pic.jpg": "/dBaron/static/media/profile-pic.ee0392d6a0fbda974b09.jpg",
@@ -28,6 +29,7 @@
     "static/media/stroke-four.jpg": "/dBaron/static/media/stroke-four.ed69723081fc3e0d656e.jpg",
     "static/media/stroke-two.jpg": "/dBaron/static/media/stroke-two.5bed7cf46b36129203d5.jpg",
     "static/media/stroke-six.jpg": "/dBaron/static/media/stroke-six.c0f24fe3279e44dbc6dc.jpg",
+    "static/media/work-example-7.png": "/dBaron/static/media/work-example-7.350121a452bee250f789.png",
     "static/media/stroke-five.jpg": "/dBaron/static/media/stroke-five.5541d47a51c1404728b4.jpg",
     "static/media/stroke-one.jpg": "/dBaron/static/media/stroke-one.1c98b375c312b2b9b9f5.jpg",
     "static/media/stroke-three.jpg": "/dBaron/static/media/stroke-three.4d749f94cca77e17c1bc.jpg",
@@ -44,12 +46,12 @@
     "static/media/paint-six.jpg": "/dBaron/static/media/paint-six.97a00a94f4bce412299b.jpg",
     "static/media/Cache-Regular.ttf": "/dBaron/static/media/Cache-Regular.76beb775ba7985ab5efb.ttf",
     "index.html": "/dBaron/index.html",
-    "main.6bf4d542.css.map": "/dBaron/static/css/main.6bf4d542.css.map",
-    "main.cd6042f8.js.map": "/dBaron/static/js/main.cd6042f8.js.map",
+    "main.9df74dfd.css.map": "/dBaron/static/css/main.9df74dfd.css.map",
+    "main.6e256744.js.map": "/dBaron/static/js/main.6e256744.js.map",
     "787.92f46062.chunk.js.map": "/dBaron/static/js/787.92f46062.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bf4d542.css",
-    "static/js/main.cd6042f8.js"
+    "static/css/main.9df74dfd.css",
+    "static/js/main.6e256744.js"
   ]
 }
